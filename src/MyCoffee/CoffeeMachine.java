@@ -88,7 +88,7 @@ public class CoffeeMachine {
                     "Done: " + this.done(coffeeType + " " + sugar + " & " + milk)
             );
         } else {
-            this.showInfo("Please insert correct banknote");
+            this.showInfo("Please insert correct banknote. Try again.");
         }
     }
 }
